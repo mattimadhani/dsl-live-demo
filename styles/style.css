@@ -1,0 +1,48 @@
+@font-face {
+    font-family: "GothamRounded-book";
+    src: url("../fonts/gotham-rounded/GothamRounded-Book.otf") format("opentype");
+    
+         /* url("/fonts/OpenSans-Regular-webfont.woff") format("woff"); */
+  }
+
+  @font-face {
+    font-family: "GothamRounded-Medium";
+    src: url("../fonts/gotham-rounded/GothamRounded-Medium.otf") format("opentype");
+    
+         /* url("/fonts/OpenSans-Regular-webfont.woff") format("woff"); */
+  }
+
+.sidebar-sticky{
+    top: 0;
+    height: calc(100vh - 48px);
+    padding-top: .5rem;
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+
+.nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active{
+    border-bottom: 1px solid;
+    border-color: #fff #fff #007bff;
+}
+
+.nav-tabs .nav-link:focus, .nav-tabs .nav-link:hover {
+    /* border-color: transparent; */
+}
+
+.tab-content>.tab-pane{
+    margin-top:2rem;
+}
+
+.list-group-item{
+    border: none;
+}
+
+.span-title{
+    font-weight: bold;
+}
+
+.main-header{
+    font-family: 'GothamRounded-Medium';
+    font-size: 3rem;
+    font-weight: 700;
+}
